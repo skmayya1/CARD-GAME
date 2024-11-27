@@ -4,7 +4,7 @@ import Footer from './Footer'
 
 const Room = () => {
   return (
-    <div className='h-screen w-full flex flex-col justify-between'>
+    <div className='h-screen w-full flex flex-col justify-between bg-gray-900'>
         <Header />
         <Footer />
     </div>
