@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Header = () => {
   return (
     <div className="flex justify-between items-center p-4 bg-gray-800 shadow-md">

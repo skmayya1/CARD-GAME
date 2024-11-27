@@ -1,5 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import CreateRoom from "./Components/CreateRoom"
+
+import "./Utils/Socket"
 import Room from "./Components/Room";
 
 const router = createBrowserRouter([
