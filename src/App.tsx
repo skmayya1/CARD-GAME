@@ -6,9 +6,6 @@ const App = () => {
     </div>
   )
 }
-<<<<<<< HEAD
-export default App
-=======
 
-export default App;
->>>>>>> refs/remotes/origin/master
+export default App
+
