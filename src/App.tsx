@@ -8,7 +8,7 @@ import SignIn from "./Components/SignIn";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <CreateRoom />
+    element: <SocketProvider> <CreateRoom /></SocketProvider>
   },
   {
     path : "/room/:id",
