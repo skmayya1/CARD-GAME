@@ -45,7 +45,9 @@ const Room: React.FC = () => {
           </div>
         </div>
 
-        {/* Player Section */}
+        {/* Player Section and bet*/}
+        <div className="flex justify-center gap-20">
+          {/* Player Section and bet*/}
         <div className="flex justify-between items-center  w-full pr-2  mt-6">
           {Array.from({ length: 4 }, (_, i) => (
             <div key={i} className="flex flex-col   w-52 items-center space-y-2">
@@ -58,6 +60,9 @@ const Room: React.FC = () => {
               <span className="text-white text-sm">PLAYER {i + 1}</span>
             </div>
           ))}
+          </div>
+          
+            {/* bet section*/}
           <div className="flex flex-col items-center gap-3 justify-between w-100 mt-8">
             {/* Balance Display */}
             <div className="flex items-center space-x-2 text-white">
@@ -81,7 +86,7 @@ const Room: React.FC = () => {
               BET
             </button>
           </div>
-        </div>
+          </div>
       </div>
 
       {/* Footer*/}
