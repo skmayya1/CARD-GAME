@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
     <div>
       {/* Footer container */}
       <footer
-        className={`fixed bottom-0 left-0 w-full transition-all duration-300 bg-gray-900 text-white ${
+        className={`fixed bottom-0 left-0 w-full transition-all duration-300 bg-gradient-to-r from-gray-900 to-gray-800 text-white ${
           isExpanded ? "h-[24%]" : "h-12"
         }`}
         onClick={toggleFooter}
@@ -29,9 +29,9 @@ const Footer: React.FC = () => {
             {/* Important Links */}
             <div>
               <h4 className="text-lg font-bold mb-1">Important Links</h4>
-              <ul className="list-none space-y-1">
+              <ul className="list-none space-y-1 ">
                 <li>
-                  <a href="#" className="hover:underline">
+                  <a href="#" className="hover:underline ">
                     Home
                   </a>
                 </li>
@@ -55,11 +55,11 @@ const Footer: React.FC = () => {
 
             {/* Contact Info */}
             <div >
-              <h4 className="text-lg font-bold ">Contact</h4>
-              <p>Email: contact@andarbahar.com</p>
-              <p>Phone: +1-969-969-969</p>
-              <p>Owner: Scam Skanda</p>
-              <p>Co-owner: Pablo</p>
+              <h4 className="text-lg text-center font-bold ">Contact</h4>
+              <p className="flex justify-center">Email: contact@andarbahar.com</p>
+              <p className="flex justify-center">Phone: +1-969-969-969</p>
+              <p className="flex justify-center">Owner: Scam Skanda</p>
+              <p className="flex justify-center">Co-owner: Pablo</p>
             </div>
 
             {/* Social Media */}
