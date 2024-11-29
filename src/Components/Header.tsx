@@ -14,7 +14,7 @@ const Header = () => {
   };
 
   return (
-    <div className="flex justify-between items-center p-6 bg-gradient-to-r from-gray-800 to-gray-900 shadow-lg rounded-b-xl">
+    <div className="flex justify-between items-center p-4 bg-gradient-to-r from-gray-800 to-gray-900 shadow-lg rounded-b-xl">
       {/* Logo/Title */}
       <h1 className="text-3xl font-extrabold text-white tracking-wide hover:text-red-700 transition-all duration-300 cursor-pointer">
         Andar Bahar
@@ -54,17 +54,7 @@ const Header = () => {
         </div>
       </div>
 
-      {/* Mobile Menu (conditional rendering) */}
-      {menuOpen && (
-        <div className="absolute top-20 right-6 bg-white shadow-md rounded-lg p-4 w-48">
-          <ul className="space-y-3 text-gray-800">
-            <li><a href="#" className="hover:text-blue-500 transition-colors">Home</a></li>
-            <li><a href="#" className="hover:text-blue-500 transition-colors">About Us</a></li>
-            <li><a href="#" className="hover:text-blue-500 transition-colors">Services</a></li>
-            <li><a href="#" className="hover:text-blue-500 transition-colors">Contact</a></li>
-          </ul>
-        </div>
-      )}
+    
     </div>
   );
 };

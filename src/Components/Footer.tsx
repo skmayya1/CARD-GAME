@@ -26,6 +26,8 @@ const Footer: React.FC = () => {
         {/* Expanded content */}
         {isExpanded && (
           <div className="flex justify-around items-center h-full p-6">
+         
+            
             {/* Important Links */}
             <div>
               <h4 className="text-lg font-bold mb-1">Important Links</h4>
@@ -85,6 +87,8 @@ const Footer: React.FC = () => {
             </div>
           </div>
         )}
+       
+      
       </footer>
     </div>
   );
